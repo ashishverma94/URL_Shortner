@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background: skyblue;
+    text-align: center;
+}
+
+h1{
+    font-weight: 1200;
+    margin-top: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main{
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    box-shadow: 20px 20px 50px  #5ca1bd,
+                -10px -10px 90px rgb(254, 253, 253);
+}
+
+.a{
+    position: relative;
+    margin: auto;
+    
+    width: 100%;
+    margin-top: 90px;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    width: 80%;
+    border-radius: 15px;
+    box-shadow:inset 10px 10px 20px  #5ca1bd,
+                -10px -10px 100px rgb(254, 253, 253);
+}
+
+
+
+
+#longurl{
+    height: 50px;
+    width: 80%;
+    font-size: 20px;
+    border: 0px;
+    background-color: transparent;
+    
+    outline: none;
+    
+}
+
+#shorturl{
+    height: 40px;
+    width: 80%;
+    font-size: 20px;
+    border: 0px;
+    margin-left: 20px;
+    outline: none;
+    background-color: transparent;
+
+
+}
+
+#shorten{
+    display: inline-block;
+    outline: 0;
+    text-align: center;
+    cursor: pointer;
+    padding: 11px 10px;
+    border: 0;
+    color: #fff;
+    font-size: 17.5px;
+    border: 2px solid transparent;
+    border-color: #000;
+    color: #000;
+    background: transparent;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-weight: 800;
+    line-height: 30px;
+    transition: background color .1s ease-in-out ; 
+    :hover {
+        background-color: #000;
+        color: #fff;
+    }
+    
+}
+
+
+#copy{
+    border: 0px;
+    background-color: transparent;
+    cursor: pointer;
+}
+svg{
+    height: 25px;
+    margin-top: 13px;
+    margin-left: 15px;
+    background-color: transparent;
+}
